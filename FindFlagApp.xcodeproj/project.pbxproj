@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28C82DBA2CB9017E00384B21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C82DB92CB9017E00384B21 /* AppDelegate.swift */; };
+		28C82DBC2CB9017E00384B21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C82DBB2CB9017E00384B21 /* SceneDelegate.swift */; };
+		28C82DBE2CB9017E00384B21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C82DBD2CB9017E00384B21 /* ViewController.swift */; };
+		28C82DC12CB9017E00384B21 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 28C82DC02CB9017E00384B21 /* Base */; };
+		28C82DC32CB9018A00384B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C82DC22CB9018A00384B21 /* Assets.xcassets */; };
+		28C82DC62CB9018A00384B21 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 28C82DC52CB9018A00384B21 /* Base */; };
+		28C82DD12CB9018B00384B21 /* FindFlagAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C82DD02CB9018B00384B21 /* FindFlagAppTests.swift */; };
+		28C82DDB2CB9018B00384B21 /* FindFlagAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C82DDA2CB9018B00384B21 /* FindFlagAppUITests.swift */; };
+		28C82DDD2CB9018B00384B21 /* FindFlagAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C82DDC2CB9018B00384B21 /* FindFlagAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28C82DCD2CB9018B00384B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C82DAE2CB9017E00384B21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C82DB52CB9017E00384B21;
+			remoteInfo = FindFlagApp;
+		};
+		28C82DD72CB9018B00384B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C82DAE2CB9017E00384B21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C82DB52CB9017E00384B21;
+			remoteInfo = FindFlagApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28C82DB62CB9017E00384B21 /* FindFlagApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindFlagApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C82DB92CB9017E00384B21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28C82DBB2CB9017E00384B21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		28C82DBD2CB9017E00384B21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28C82DC02CB9017E00384B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28C82DC22CB9018A00384B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28C82DC52CB9018A00384B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28C82DC72CB9018A00384B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C82DCC2CB9018B00384B21 /* FindFlagAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindFlagAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C82DD02CB9018B00384B21 /* FindFlagAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFlagAppTests.swift; sourceTree = "<group>"; };
+		28C82DD62CB9018B00384B21 /* FindFlagAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindFlagAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C82DDA2CB9018B00384B21 /* FindFlagAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFlagAppUITests.swift; sourceTree = "<group>"; };
+		28C82DDC2CB9018B00384B21 /* FindFlagAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFlagAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28C82DB32CB9017E00384B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C82DC92CB9018B00384B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C82DD32CB9018B00384B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28C82DAD2CB9017E00384B21 = {
+			isa = PBXGroup;
+			children = (
+				28C82DB82CB9017E00384B21 /* FindFlagApp */,
+				28C82DCF2CB9018B00384B21 /* FindFlagAppTests */,
+				28C82DD92CB9018B00384B21 /* FindFlagAppUITests */,
+				28C82DB72CB9017E00384B21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28C82DB72CB9017E00384B21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28C82DB62CB9017E00384B21 /* FindFlagApp.app */,
+				28C82DCC2CB9018B00384B21 /* FindFlagAppTests.xctest */,
+				28C82DD62CB9018B00384B21 /* FindFlagAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28C82DB82CB9017E00384B21 /* FindFlagApp */ = {
+			isa = PBXGroup;
+			children = (
+				28C82DB92CB9017E00384B21 /* AppDelegate.swift */,
+				28C82DBB2CB9017E00384B21 /* SceneDelegate.swift */,
+				28C82DBD2CB9017E00384B21 /* ViewController.swift */,
+				28C82DBF2CB9017E00384B21 /* Main.storyboard */,
+				28C82DC22CB9018A00384B21 /* Assets.xcassets */,
+				28C82DC42CB9018A00384B21 /* LaunchScreen.storyboard */,
+				28C82DC72CB9018A00384B21 /* Info.plist */,
+			);
+			path = FindFlagApp;
+			sourceTree = "<group>";
+		};
+		28C82DCF2CB9018B00384B21 /* FindFlagAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				28C82DD02CB9018B00384B21 /* FindFlagAppTests.swift */,
+			);
+			path = FindFlagAppTests;
+			sourceTree = "<group>";
+		};
+		28C82DD92CB9018B00384B21 /* FindFlagAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28C82DDA2CB9018B00384B21 /* FindFlagAppUITests.swift */,
+				28C82DDC2CB9018B00384B21 /* FindFlagAppUITestsLaunchTests.swift */,
+			);
+			path = FindFlagAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28C82DB52CB9017E00384B21 /* FindFlagApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C82DE02CB9018B00384B21 /* Build configuration list for PBXNativeTarget "FindFlagApp" */;
+			buildPhases = (
+				28C82DB22CB9017E00384B21 /* Sources */,
+				28C82DB32CB9017E00384B21 /* Frameworks */,
+				28C82DB42CB9017E00384B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindFlagApp;
+			productName = FindFlagApp;
+			productReference = 28C82DB62CB9017E00384B21 /* FindFlagApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28C82DCB2CB9018B00384B21 /* FindFlagAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C82DE32CB9018B00384B21 /* Build configuration list for PBXNativeTarget "FindFlagAppTests" */;
+			buildPhases = (
+				28C82DC82CB9018B00384B21 /* Sources */,
+				28C82DC92CB9018B00384B21 /* Frameworks */,
+				28C82DCA2CB9018B00384B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28C82DCE2CB9018B00384B21 /* PBXTargetDependency */,
+			);
+			name = FindFlagAppTests;
+			productName = FindFlagAppTests;
+			productReference = 28C82DCC2CB9018B00384B21 /* FindFlagAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28C82DD52CB9018B00384B21 /* FindFlagAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C82DE62CB9018B00384B21 /* Build configuration list for PBXNativeTarget "FindFlagAppUITests" */;
+			buildPhases = (
+				28C82DD22CB9018B00384B21 /* Sources */,
+				28C82DD32CB9018B00384B21 /* Frameworks */,
+				28C82DD42CB9018B00384B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28C82DD82CB9018B00384B21 /* PBXTargetDependency */,
+			);
+			name = FindFlagAppUITests;
+			productName = FindFlagAppUITests;
+			productReference = 28C82DD62CB9018B00384B21 /* FindFlagAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28C82DAE2CB9017E00384B21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					28C82DB52CB9017E00384B21 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					28C82DCB2CB9018B00384B21 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 28C82DB52CB9017E00384B21;
+					};
+					28C82DD52CB9018B00384B21 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 28C82DB52CB9017E00384B21;
+					};
+				};
+			};
+			buildConfigurationList = 28C82DB12CB9017E00384B21 /* Build configuration list for PBXProject "FindFlagApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28C82DAD2CB9017E00384B21;
+			productRefGroup = 28C82DB72CB9017E00384B21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28C82DB52CB9017E00384B21 /* FindFlagApp */,
+				28C82DCB2CB9018B00384B21 /* FindFlagAppTests */,
+				28C82DD52CB9018B00384B21 /* FindFlagAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28C82DB42CB9017E00384B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C82DC32CB9018A00384B21 /* Assets.xcassets in Resources */,
+				28C82DC62CB9018A00384B21 /* Base in Resources */,
+				28C82DC12CB9017E00384B21 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C82DCA2CB9018B00384B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C82DD42CB9018B00384B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28C82DB22CB9017E00384B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C82DBE2CB9017E00384B21 /* ViewController.swift in Sources */,
+				28C82DBA2CB9017E00384B21 /* AppDelegate.swift in Sources */,
+				28C82DBC2CB9017E00384B21 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C82DC82CB9018B00384B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C82DD12CB9018B00384B21 /* FindFlagAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C82DD22CB9018B00384B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C82DDB2CB9018B00384B21 /* FindFlagAppUITests.swift in Sources */,
+				28C82DDD2CB9018B00384B21 /* FindFlagAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28C82DCE2CB9018B00384B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28C82DB52CB9017E00384B21 /* FindFlagApp */;
+			targetProxy = 28C82DCD2CB9018B00384B21 /* PBXContainerItemProxy */;
+		};
+		28C82DD82CB9018B00384B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28C82DB52CB9017E00384B21 /* FindFlagApp */;
+			targetProxy = 28C82DD72CB9018B00384B21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28C82DBF2CB9017E00384B21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28C82DC02CB9017E00384B21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28C82DC42CB9018A00384B21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28C82DC52CB9018A00384B21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28C82DDE2CB9018B00384B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28C82DDF2CB9018B00384B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28C82DE12CB9018B00384B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FindFlagApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qq.FindFlagApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28C82DE22CB9018B00384B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FindFlagApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qq.FindFlagApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28C82DE42CB9018B00384B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qq.FindFlagAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindFlagApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FindFlagApp";
+			};
+			name = Debug;
+		};
+		28C82DE52CB9018B00384B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qq.FindFlagAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindFlagApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FindFlagApp";
+			};
+			name = Release;
+		};
+		28C82DE72CB9018B00384B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qq.FindFlagAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindFlagApp;
+			};
+			name = Debug;
+		};
+		28C82DE82CB9018B00384B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qq.FindFlagAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindFlagApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28C82DB12CB9017E00384B21 /* Build configuration list for PBXProject "FindFlagApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C82DDE2CB9018B00384B21 /* Debug */,
+				28C82DDF2CB9018B00384B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C82DE02CB9018B00384B21 /* Build configuration list for PBXNativeTarget "FindFlagApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C82DE12CB9018B00384B21 /* Debug */,
+				28C82DE22CB9018B00384B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C82DE32CB9018B00384B21 /* Build configuration list for PBXNativeTarget "FindFlagAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C82DE42CB9018B00384B21 /* Debug */,
+				28C82DE52CB9018B00384B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C82DE62CB9018B00384B21 /* Build configuration list for PBXNativeTarget "FindFlagAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C82DE72CB9018B00384B21 /* Debug */,
+				28C82DE82CB9018B00384B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28C82DAE2CB9017E00384B21 /* Project object */;
+}
